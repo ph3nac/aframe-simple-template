@@ -18,5 +18,8 @@
     "aframe-scene",
     "webvr",
     "vr"
-  ]
+  ],
+  "dependencies": {
+    "angle": "^0.9.1"
+  }
 }

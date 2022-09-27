@@ -51,6 +51,8 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: "./src/index.html",
+      inject: "head",
+      scriptLoading: "blocking",
     }),
   ],
 };
