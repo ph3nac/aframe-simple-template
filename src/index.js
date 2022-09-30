@@ -1,6 +1,6 @@
-import "./styles.css";
-import { Hello } from "./hello";
+import './styles.css';
+import { Hello } from './hello';
 // too heavy
-import "aframe";
-import "aframe-room-component";
-new Hello("taro").greet();
+import * as THREE from 'aframe';
+import 'aframe';
+new Hello('taro').greet();

@@ -39,6 +39,7 @@ module.exports = {
     ],
   },
   devServer: {
+    watchFiles:["src/"],
     static: {
       directory: "./dist",
     },
@@ -64,4 +65,8 @@ module.exports = {
   stats: {
     colors: true,
   },
+  // externals:{
+  //   aframe:'aframe',
+  //   aframeroomcomponent:"aframe-room-component",
+  // }
 };
